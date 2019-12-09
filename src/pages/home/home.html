@@ -1,0 +1,25 @@
+<ion-content>
+  <ion-slides style="height: calc(100% - 100px);" #slides (ionSlideWillChange)="onSlideChangeStart($event)" pager dir="rtl">
+  </ion-slides>
+  <div ion-item>
+    <label>Top -></label>
+    <label class="colorLable" *ngFor="let item of TopRGBA"> {{item.color}}</label>
+  </div>
+  <div ion-item>
+    <label>Bottom -></label>
+    <label class="colorLable" *ngFor="let item of BottomRGBA"> {{item.color}}</label>
+  </div>
+  <div ion-item>
+    <label>Center -></label>
+    <label class="colorLable" *ngFor="let item of CenterRGBA"> {{item.color}}</label>
+  </div>
+  <div ion-item>
+    <label>Left -></label>
+    <label class="colorLable" *ngFor="let item of LeftRGBA"> {{item.color}}</label>
+  </div>
+  <div ion-item>
+    <label>Right -></label>
+    <label class="colorLable" *ngFor="let item of RightRGBA"> {{item.color}}</label>
+  </div>
+</ion-content>
+

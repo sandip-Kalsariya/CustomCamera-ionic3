@@ -1,2 +1,2 @@
-# CustomCamera
-Create Custom Camera using ionic framework
+# Custome Camera App
+ 
